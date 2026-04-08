@@ -1,0 +1,7 @@
+class Player:
+def init(self, name):
+self.name = name
+self.score = 0
+
+p1 = Player("User")
+print(p1.name, p1.score)
