@@ -1,0 +1,14 @@
+class Player:
+def init(self, name):
+self.name = name
+self.__score = 0
+
+def add_score(self, points):  
+    self.__score += points  
+
+def show_score(self):  
+    print(self.__score)
+
+p1 = Player("User")
+p1.add_score(10)
+p1.show_score()
