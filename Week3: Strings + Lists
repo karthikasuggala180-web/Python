@@ -1,0 +1,14 @@
+word = "game"
+guessed = []
+
+for i in word:
+guessed.append("_")
+
+letter = input("Enter a letter: ")
+
+for i in range(len(word)):
+if word[i] == letter:
+guessed[i] = letter
+
+print(guessed)
+
