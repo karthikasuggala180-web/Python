@@ -1,0 +1,8 @@
+player = {"name": "User", "score": 0}
+
+result = ("win", 10)
+
+if result[0] == "win":
+player["score"] += result[1]
+
+print(player)
