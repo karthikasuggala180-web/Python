@@ -1,0 +1,7 @@
+
+import json
+
+data = {"name": "User", "score": 20}
+
+with open("score.json", "w") as f:
+json.dump(data, f)
